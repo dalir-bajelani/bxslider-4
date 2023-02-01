@@ -836,7 +836,7 @@
           position = slider.children.eq(slider.children.length - 1).position();
         }
         if (position) {
-          if (slider.settings.mode === 'horizontal') { setPositionProperty(-position.left, 'reset', 0.01); // .01 to prevent flash on repositioning of slider when cycling through infinite }
+          if (slider.settings.mode === 'horizontal') { setPositionProperty(-position.left, 'reset', 0.01); } // .01 to prevent flash on repositioning of slider when cycling through infinite
           else if (slider.settings.mode === 'vertical') { setPositionProperty(-position.top, 'reset', 0.01); }
         }
       }
