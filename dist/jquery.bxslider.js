@@ -1,11 +1,3 @@
-/**
- * bxSlider v4.2.4
- * Copyright 2013-2015 Steven Wanderski
- * Written while drinking Belgian ales and listening to jazz
-
- * Licensed under MIT (http://opensource.org/licenses/MIT)
- */
-
 ;(function($) {
 
   var defaults = {
@@ -844,8 +836,8 @@
           position = slider.children.eq(slider.children.length - 1).position();
         }
         if (position) {
-          if (slider.settings.mode === 'horizontal') { setPositionProperty(-position.left, 'reset', 0); }
-          else if (slider.settings.mode === 'vertical') { setPositionProperty(-position.top, 'reset', 0); }
+          if (slider.settings.mode === 'horizontal') { setPositionProperty(-position.left, 'reset', 0.01); } // .01 to prevent flash on repositioning of slider when cycling through infinite
+          else if (slider.settings.mode === 'vertical') { setPositionProperty(-position.top, 'reset', 0.01); }
         }
       }
       // declare that the transition is complete

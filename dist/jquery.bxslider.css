@@ -1,11 +1,3 @@
-/**
- * bxSlider v4.2.4
- * Copyright 2013-2015 Steven Wanderski
- * Written while drinking Belgian ales and listening to jazz
-
- * Licensed under MIT (http://opensource.org/licenses/MIT)
- */
-
 /** VARIABLES 
 ===================================*/
 /** RESET AND LAYOUT
@@ -14,7 +6,6 @@
   position: relative;
   margin: 0 auto 60px;
   padding: 0;
-  *zoom: 1;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
 }
@@ -88,8 +79,6 @@ ul.bxslider {
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
   display: inline-block;
-  *zoom: 1;
-  *display: inline;
 }
 .bx-wrapper .bx-pager-item {
   font-size: 0;
