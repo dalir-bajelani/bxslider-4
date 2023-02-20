@@ -1,4 +1,4 @@
-#bxSlider 4.2.6
+#bxSlider 4.2.7
 ##The fully-loaded, responsive jQuery content slider
 
 ###Why should I use this slider?
@@ -642,7 +642,7 @@ Everyone is welcome to help [contribute](CONTRIBUTING.md) and improve this proje
 
 ## Changelog
 
-### Version 4.2.6
+### Version 4.2.7
 NOTICE: We have switched to a Grunt based build process in order to leverage [Assemble](http://assemble.io) for local documentation building. Please review the above notes about Grunt for the commands available. 
 
 * Fix: Fixed transition from first to last slide during infinite loop #778
